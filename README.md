@@ -45,8 +45,11 @@
      1. Created All the others Fields for the object  Re Plastic Innovations Restock Request
         <img width="1054" height="803" alt="image" src="https://github.com/user-attachments/assets/5f8b99bb-ded9-43a0-bf2b-2ffe69765056" />
 
+
 # Data management-Tabs
+
 # Data Management-App Manager
+
 Fill the app name in app details and branding as follow
 
 App Name : Re Plastic Innovations
@@ -58,6 +61,7 @@ Description : Give a meaningful description
 Image : optional (if you want to give any image you can otherwise not mandatory)
 
 Primary color hex value : keep this default
+ <img width="764" height="514" alt="image" src="https://github.com/user-attachments/assets/ec99525f-aeea-4fa8-a5fe-1652917bf356" />
 
 
 
