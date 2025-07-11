@@ -51,19 +51,17 @@
 # Data Management-App Manager
 
 Fill the app name in app details and branding as follow
-
 App Name : Re Plastic Innovations
-
 Developer Name : this will auto populated
-
 Description : Give a meaningful description
-
 Image : optional (if you want to give any image you can otherwise not mandatory)
 
 Primary color hex value : keep this default
  <img width="764" height="514" alt="image" src="https://github.com/user-attachments/assets/ec99525f-aeea-4fa8-a5fe-1652917bf356" />
 
 
+Added Navigation Items
+<img width="708" height="607" alt="image" src="https://github.com/user-attachments/assets/83b1efff-592d-40b0-ad4c-448c0f464c87" />
 
 
 
