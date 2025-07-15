@@ -115,3 +115,42 @@ Defined role hierarchy:
 ![Role Hierarchy 2](https://github.com/user-attachments/assets/17cd301d-4208-42aa-8681-44705afd61c2)
 
 ---
+
+## 🔐 Data Security – Profiles
+
+The following profiles were created and configured to manage object-level access permissions:
+
+![Profiles](https://github.com/user-attachments/assets/8eba060f-0209-4d69-8adc-e997522b0e37)
+
+After creating the profiles, access was granted to relevant objects as follows:
+
+---
+
+### 👤 **Profile: Platform 1**
+
+- **Re Plastic Innovations Plastic Waste** – Read / Create  
+- **Re Plastic Innovations Restock Request** – Read-Only
+
+---
+
+### 👤 **Profile: Platform 2**
+
+- **Re Plastic Innovations Order** – Read / Create  
+- **Account** – Read / Create  
+- **Re Plastic Innovations Plastic Waste** – Read-Only  
+- **Re Plastic Innovations Recycled Product** – Read-Only
+
+---
+
+### 👤 **Profile: Platform 3**
+
+- **All Custom Objects** – Read / Create / Edit  
+  (Full access to all Re Plastic Innovations custom objects)
+
+---
+
+
+
+
+
+
