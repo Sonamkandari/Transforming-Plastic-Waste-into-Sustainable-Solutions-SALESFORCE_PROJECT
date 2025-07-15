@@ -149,6 +149,15 @@ After creating the profiles, access was granted to relevant objects as follows:
 
 ---
 
+## 🔐 Data Security – Users
+
+- **created three users**
+
+
+
+
+
+
 
 
 
