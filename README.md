@@ -79,9 +79,12 @@ Creating Field in Re Plastic Innovations Plastic Waste Object
 #**Data Management fields**
 
 created  Fied-Weight ,field-Type and Field-Re plastic Innovations Recycling Center. for the objects which we have created in Data Management -Object
+
 <img width="946" height="469" alt="image" src="https://github.com/user-attachments/assets/34effb82-7c2c-4612-ae2a-d67f4ad58d69" />
 
+
 #**Data Security - Roles**
+
 1.Sales Representative report to CEO
 2. Warehouse Supervisor report to Sales Representative
 
