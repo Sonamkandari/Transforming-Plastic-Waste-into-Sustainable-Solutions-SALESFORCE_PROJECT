@@ -159,7 +159,16 @@ After creating the profiles, access was granted to relevant objects as follows:
 ## Data Security - Record Level Security
 
 created sharing setting for 
-<img width="878" height="657" alt="image" src="https://github.com/user-attachments/assets/f6002cc5-6597-4b30-b86a-521be0ec84ac" />
+
+<img width="920" height="792" alt="image" src="https://github.com/user-attachments/assets/dea14fa7-20ea-4fa7-9171-e540fff3f6b2" />
+
+--Give Record Level Access To User
+
+--Only the Recycling Manager should access Re_Plastic_Innovations_Plastic_Waste__c collection details.
+Search Steel Production Object and Click New for Crete New Sharing Rule.
+
+<img width="940" height="540" alt="image" src="https://github.com/user-attachments/assets/aaa1b02e-aa3b-4af9-896b-e885b212704b" />
+
 
 
 
