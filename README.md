@@ -149,38 +149,80 @@ After creating the profiles, access was granted to relevant objects as follows:
 
 ---
 
+# 📘 RePlastic Innovations – Salesforce Configuration
+
+---
+
 ## 🔐 Data Security – Users
 
-- **created three users**
+- Created **three users**:
 
-- <img width="927" height="710" alt="image" src="https://github.com/user-attachments/assets/65c99b2c-8d10-4576-8df9-09ff422d053b" />
----
-
-## Data Security - Record Level Security
-
-created sharing setting for 
-
-<img width="920" height="792" alt="image" src="https://github.com/user-attachments/assets/dea14fa7-20ea-4fa7-9171-e540fff3f6b2" />
-
---Give Record Level Access To User
-
---Only the Recycling Manager should access Re_Plastic_Innovations_Plastic_Waste__c collection details.
---Search Steel Production Object and Click New for Crete New Sharing Rule.
-
-<img width="940" height="540" alt="image" src="https://github.com/user-attachments/assets/aaa1b02e-aa3b-4af9-896b-e885b212704b" />
-
-**Create More Two Sharing Rules**
---Sales Representative get read access for Re_Plastic_Innovations_Recycled_Product Object.
-
---CEO ====> Sales Representative.
-
---Warehouse Supervisor gets read access for Re_Plastic_Innovations_Restock_Request Object.
-
---Sales Representative.=====> Warehouse Supervisor
-
-<img width="932" height="790" alt="image" src="https://github.com/user-attachments/assets/05810f82-fb4e-40e7-949d-4a54622edb0b" />
+  ![Users Creation](https://github.com/user-attachments/assets/65c99b2c-8d10-4576-8df9-09ff422d053b)
 
 ---
+
+## 🛡️ Data Security – Record-Level Sharing
+
+- Setup Organization-Wide Defaults as **Private**.
+- Configured sharing rules to grant record access:
+
+  ![Sharing Settings Overview](https://github.com/user-attachments/assets/dea14fa7-20ea-4fa7-9171-e540fff3f6b2)
+
+### Sharing Rules:
+
+1. **Recycling Manager access to Plastic Waste records**
+   - Only the *Recycling Manager* role can access the `Re_Plastic_Innovations_Plastic_Waste__c` collection.
+
+2. **Create Owner-Based Sharing Rule**
+   - Navigate via **Steel Production object** → *New Sharing Rule*
+   
+   ![New Sharing Rule Setup](https://github.com/user-attachments/assets/aaa1b02e-aa3b-4af9-896b-e885b212704b)
+
+3. **Additional Sharing Rules:**
+
+   - **Sales Representative** gets **Read** access to the `Re_Plastic_Innovations_Recycled_Product__c` object  
+     (shared: CEO → Sales Rep)
+   - **Warehouse Supervisor** gets **Read** access to the `Re_Plastic_Innovations_Restock_Request__c` object  
+     (shared: Sales Rep → Warehouse Supervisor)
+
+   ![More Sharing Rules](https://github.com/user-attachments/assets/05810f82-fb4e-40e7-949d-4a54622edb0b)
+
+---
+
+## ⚙️ Data Configuration & Testing
+
+- **Formula Field Testing**:
+
+  ![Formula Testing 1](https://github.com/user-attachments/assets/c997bda4-2f06-40a2-af8c-61f752f5c2c9)  
+  ![Formula Testing 2](https://github.com/user-attachments/assets/fd9c4189-291e-4eee-bad3-30e248644c42)
+
+- **Validation Rules**
+  - Created various validation rules to enforce data integrity.
+
+---
+
+## ✅ Summary
+
+You’ve implemented:
+- User setup (**3 users**)
+- OWD set to **Private**
+- Role-based sharing rules allowing:
+  - Recycling Manager ➜ Plastic Waste (exclusive access)
+  - CEO ➜ Sales Representatives for Recycled Products
+  - Sales Representatives ➜ Warehouse Supervisors for Restock Requests
+- Tested dynamic **Formula fields**
+- Added **Validation rules** for data quality
+
+---
+
+Let me know if you'd like to include:
+- Metadata snippets (XML or Apex)
+- Deployment instructions
+- Behavior test results
+
+
+
+
 
 
 
