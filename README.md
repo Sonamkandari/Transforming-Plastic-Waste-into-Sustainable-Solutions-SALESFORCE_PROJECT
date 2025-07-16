@@ -159,6 +159,7 @@ After creating the profiles, access was granted to relevant objects as follows:
 ## Data Security - Record Level Security
 
 created sharing setting for 
+<img width="878" height="657" alt="image" src="https://github.com/user-attachments/assets/f6002cc5-6597-4b30-b86a-521be0ec84ac" />
 
 
 
