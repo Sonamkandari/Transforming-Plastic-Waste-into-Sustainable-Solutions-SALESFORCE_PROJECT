@@ -201,24 +201,6 @@ After creating the profiles, access was granted to relevant objects as follows:
 
 ---
 
-## ✅ Summary
-
-You’ve implemented:
-- User setup (**3 users**)
-- OWD set to **Private**
-- Role-based sharing rules allowing:
-  - Recycling Manager ➜ Plastic Waste (exclusive access)
-  - CEO ➜ Sales Representatives for Recycled Products
-  - Sales Representatives ➜ Warehouse Supervisors for Restock Requests
-- Tested dynamic **Formula fields**
-- Added **Validation rules** for data quality
-
----
-
-Let me know if you'd like to include:
-- Metadata snippets (XML or Apex)
-- Deployment instructions
-- Behavior test results
 
 
 
