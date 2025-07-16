@@ -165,10 +165,22 @@ created sharing setting for
 --Give Record Level Access To User
 
 --Only the Recycling Manager should access Re_Plastic_Innovations_Plastic_Waste__c collection details.
-Search Steel Production Object and Click New for Crete New Sharing Rule.
+--Search Steel Production Object and Click New for Crete New Sharing Rule.
 
 <img width="940" height="540" alt="image" src="https://github.com/user-attachments/assets/aaa1b02e-aa3b-4af9-896b-e885b212704b" />
 
+**Create More Two Sharing Rules**
+--Sales Representative get read access for Re_Plastic_Innovations_Recycled_Product Object.
+
+--CEO ====> Sales Representative.
+
+--Warehouse Supervisor gets read access for Re_Plastic_Innovations_Restock_Request Object.
+
+--Sales Representative.=====> Warehouse Supervisor
+
+<img width="932" height="790" alt="image" src="https://github.com/user-attachments/assets/05810f82-fb4e-40e7-949d-4a54622edb0b" />
+
+---
 
 
 
