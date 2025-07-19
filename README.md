@@ -198,6 +198,12 @@ After creating the profiles, access was granted to relevant objects as follows:
 
 - **Validation Rules**
   - Created various validation rules to enforce data integrity.
+    creating a validation rule for checking ,is the Quantity is not zero
+    <img width="932" height="715" alt="image" src="https://github.com/user-attachments/assets/ee27fdac-5488-46bc-be70-a2128f5f5ad8" />
+
+
+Created Another Validation on Re Plastic Innovations Plastic Waste
+<img width="920" height="793" alt="image" src="https://github.com/user-attachments/assets/478681ad-4e17-4f60-8ebc-d8b4721ced92" />
 
 ---
 
