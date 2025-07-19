@@ -208,6 +208,19 @@ Created Another Validation on Re Plastic Innovations Plastic Waste
 ---
 
 Automating Process Using automation tool flow .
+<img width="789" height="434" alt="image" src="https://github.com/user-attachments/assets/1a6ca1d2-98be-4236-b416-b4c92f63563f" />
+
+---
+<img width="958" height="333" alt="image" src="https://github.com/user-attachments/assets/1f189266-5378-43e4-9d8e-28d3c4d6ee61" />
+
+---
+
+<img width="958" height="710" alt="image" src="https://github.com/user-attachments/assets/33941032-d723-47ad-a9a5-242a5705d63b" />
+
+---
+
+
+
 
 
 
