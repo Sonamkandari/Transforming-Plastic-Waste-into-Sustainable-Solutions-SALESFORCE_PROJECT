@@ -191,66 +191,82 @@ After creating the profiles, access was granted to relevant objects as follows:
 
 ## ⚙️ Data Configuration & Testing
 
-- **Formula Field Testing**:
+### 🧮 Formula Field Testing
 
-  ![Formula Testing 1](https://github.com/user-attachments/assets/c997bda4-2f06-40a2-af8c-61f752f5c2c9)  
-  ![Formula Testing 2](https://github.com/user-attachments/assets/fd9c4189-291e-4eee-bad3-30e248644c42)
-
-- **Validation Rules**
-  - Created various validation rules to enforce data integrity.
-    creating a validation rule for checking ,is the Quantity is not zero
-    <img width="932" height="715" alt="image" src="https://github.com/user-attachments/assets/ee27fdac-5488-46bc-be70-a2128f5f5ad8" />
-
----
-Created Another Validation on Re Plastic Innovations Plastic Waste
-<img width="920" height="793" alt="image" src="https://github.com/user-attachments/assets/478681ad-4e17-4f60-8ebc-d8b4721ced92" />
+- ![Formula Testing 1](https://github.com/user-attachments/assets/c997bda4-2f06-40a2-af8c-61f752f5c2c9)  
+- ![Formula Testing 2](https://github.com/user-attachments/assets/fd9c4189-291e-4eee-bad3-30e248644c42)
 
 ---
 
-Automating Process Using automation tool flow .
-<img width="789" height="434" alt="image" src="https://github.com/user-attachments/assets/1a6ca1d2-98be-4236-b416-b4c92f63563f" />
+### 🛡️ Validation Rules
 
----
-<img width="958" height="333" alt="image" src="https://github.com/user-attachments/assets/1f189266-5378-43e4-9d8e-28d3c4d6ee61" />
+- **Quantity Not Zero Rule**  
+  Prevents orders with a quantity of 0.
+  ![Validation Rule Quantity](https://github.com/user-attachments/assets/ee27fdac-5488-46bc-be70-a2128f5f5ad8)
 
----
-
-<img width="958" height="710" alt="image" src="https://github.com/user-attachments/assets/33941032-d723-47ad-a9a5-242a5705d63b" />
-
-
----
-
-### completed flow
-<img width="382" height="493" alt="image" src="https://github.com/user-attachments/assets/7a647458-29c7-4c2b-a63c-36804d2059f7" />
----
-
-Testing the Flow Set Time and Create Record and Checking it
-
-<img width="813" height="389" alt="image" src="https://github.com/user-attachments/assets/a215d745-cb29-4df4-b8b7-5e83cd13ab30" />
-
----
-### Apex
--creating a apex class
-
-<img width="965" height="729" alt="image" src="https://github.com/user-attachments/assets/04cd9ac4-ddbb-477f-9386-2ffe2d2524fb" />
+- **Plastic Waste Rule on Re_Plastic_Innovations__c**
+  ![Plastic Waste Validation](https://github.com/user-attachments/assets/478681ad-4e17-4f60-8ebc-d8b4721ced92)
 
 ---
 
-Naming it as InventoryManager
- and code file  for this is uploaded  abhove in the file section and also a snippit is also attached here
+## 🔁 Process Automation Using Flows
 
-<img width="942" height="653" alt="image" src="https://github.com/user-attachments/assets/99c6ab83-942c-4e44-a6d3-6b724f5d579a" />
+- Automated stock flow creation:
+  ![Flow Screenshot 1](https://github.com/user-attachments/assets/1a6ca1d2-98be-4236-b416-b4c92f63563f)
 
+- Additional flow steps:
+  ![Flow Screenshot 2](https://github.com/user-attachments/assets/1f189266-5378-43e4-9d8e-28d3c4d6ee61)
+  ![Flow Screenshot 3](https://github.com/user-attachments/assets/33941032-d723-47ad-a9a5-242a5705d63b)
+
+### ✅ Completed Flow
+
+- ![Completed Flow](https://github.com/user-attachments/assets/7a647458-29c7-4c2b-a63c-36804d2059f7)
+
+### 🧪 Flow Testing
+
+- Created a test record to trigger the flow and validated with timestamp:
+  ![Flow Testing](https://github.com/user-attachments/assets/a215d745-cb29-4df4-b8b7-5e83cd13ab30)
 
 ---
--created a Apex Triger
-<img width="333" height="241" alt="image" src="https://github.com/user-attachments/assets/3dba82b3-746a-4fd0-8298-195cc27550ca" />
+
+## 💻 Apex Code
+
+### 🔧 Apex Class: `InventoryManager`
+
+- Handles:
+  - Reducing stock after an order
+  - Creating restock requests
+  - Processing approved restocks
+
+![InventoryManager Code](https://github.com/user-attachments/assets/04cd9ac4-ddbb-477f-9386-2ffe2d2524fb)
+![InventoryManager Snippet](https://github.com/user-attachments/assets/99c6ab83-942c-4e44-a6d3-6b724f5d579a)
 
 ---
 
+### 🔄 Apex Triggers
 
+#### 📦 Trigger: `UpdateStockAfterOrder`
+- Object: `Re_Plastic_Innovations_Order__c`
+- Purpose: Reduces stock and creates restock request if needed.
+![Trigger Order](https://github.com/user-attachments/assets/3dba82b3-746a-4fd0-8298-195cc27550ca)
 
+#### ✅ Trigger: `UpdateStockAfterRestockApproval`
+- Object: `Re_Plastic_Innovations_Restock_Request__c`
+- Purpose: When a restock request is approved, the stock is updated automatically.
+![Trigger Restock](https://github.com/user-attachments/assets/68a41125-037e-401d-8aff-56f74446e50e)
 
+---
+
+## 📧 Email Notification
+
+- Created a class to **send email to the Warehouse Manager** when stock is successfully updated.
+- Called this logic from within the trigger.
+
+![Email Logic](https://github.com/user-attachments/assets/d280a446-e45a-48ca-99f0-ba46f2879661)
+
+---
+
+---
 
 
 
