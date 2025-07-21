@@ -237,10 +237,16 @@ Testing the Flow Set Time and Create Record and Checking it
 ---
 
 Naming it as InventoryManager
- and code file  for this is uploaded  abhove in the file section
+ and code file  for this is uploaded  abhove in the file section and also a snippit is also attached here
+
+<img width="942" height="653" alt="image" src="https://github.com/user-attachments/assets/99c6ab83-942c-4e44-a6d3-6b724f5d579a" />
 
 
+---
+-created a Apex Triger
+<img width="333" height="241" alt="image" src="https://github.com/user-attachments/assets/3dba82b3-746a-4fd0-8298-195cc27550ca" />
 
+---
 
 
 
